@@ -1,0 +1,107 @@
+body {
+  background-color: #f0f4f8; /* Light grey-blue for a soft background */
+  font: 1em Helvetica, Arial, sans-serif;
+}
+
+#container {
+  width: 840px;
+  margin: 25px auto;
+  margin-top: 50px;
+}
+
+.whysign, .whysignLogin, .whyforgotPassword {
+  float: left;
+  background-color: #ffffff; /* White for a clean background */
+  width: 480px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.whysign {
+  height: 528px;
+}
+
+.whysignLogin {
+  height: 347px;
+}
+
+.whyforgotPassword {
+  height: 470px;
+}
+
+.signup {
+  float: left;
+  width: 300px;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+}
+
+[type=text], [type=email], [type=number], [type=password], select, option {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #333333; /* Dark grey for readability */
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #007BFF; /* Rich blue for buttons */
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+[type=submit]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+[type='text']:focus, [type='email']:focus, [type='password']:focus {
+  outline: none;
+  border-color: #4c9aff; /* Highlight focus with blue */
+}
+
+h1 {
+  color: #333333; /* Dark grey for headers */
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.2em;
+  margin: 50px 0;
+}
+
+span {
+  font-size: 0.75em;
+  background-color: #f7f7f7; /* Light grey for tags */
+  padding: 2px 5px;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+span:hover {
+  color: #007BFF; /* Blue hover effect */
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
